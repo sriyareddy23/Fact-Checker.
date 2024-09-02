@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background: #eae6f5;
+    /* background-image: url(/static/images/bg.png); */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.hero-img img{
+    height: 35vh;
+}
+/* search bar */
+.w3-btn.w3-blue.w3-border {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    border-radius: 30px;
+    background-color: purple ;
+}
+
+.w3-container {
+    position: relative;
+}
+
+/* input */
+#urltext,
+#specificElement {
+    padding: 12px;
+    border-radius: 30px;
+}
+
+
+.row p {
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.results p{
+    margin: 0;
+    padding: 0;
+}
+
+.button-1 {
+    background-color: #4b208c;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #320d68;
+  }
+
+  #loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+div#loading {
+    margin-left: 12em;
+    width: 50px;
+    height: 50px;
+    display: none;
+    background: url(/static/images/load1.gif) no-repeat;
+    cursor: wait;
+    }
+
+div#loading1 {
+    margin-left: 40em;
+    width: 50px;
+    height: 50px;
+    display: none;
+    background: url(/static/images/load1.gif) no-repeat;
+    cursor: wait;
+    }
+#purple{
+   background-color: #4b208c;
+}
